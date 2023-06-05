@@ -1,0 +1,35 @@
+  509  mkdir 20230506-JorgeLombana
+  510  cd 20230506-JorgeLombana/
+  511  git init
+  512  git remote add origin https://github.com/JorgeLombana/20230506-JorgeLombana.git
+  513  touch comandos.txt main.js index.html
+  514  git add .
+  515  git commit - m "commit 01 de JorgeLombana"
+  516  git commit -m "commit 01 de JorgeLombana"
+  517  git push origin main
+  518  git branch "feature01"
+  519  git checkout feature01
+  520  mkdir terminal hardware
+  521  cd terminal
+  522  touch resumen.txt
+  523  cd ../
+  524  cd hardware/
+  525  touch resumen.txt
+  526  git add .
+  527  git comit -m "commit 02 de JorgeLombana"
+  528  git commit -m "commit 02 de JorgeLombana"
+  529  git push origin feature01
+  530   cd ../
+  531  git add .
+  532  git commit -m "commit 03 de JorgeLombana"
+  533  git push origin feature01
+  534  git branch feature02
+  535  git checkout feature02
+  536  cd terminal/
+  537  cd ../
+  538  git add .
+  539  git commit -m "commit 04 de JorgeLombana"
+  540  git push origin feature02
+  541  git checkout main
+  542  git mv comandos.txt comandosUtilizados.txt
+  543  history
