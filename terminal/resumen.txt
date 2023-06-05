@@ -1,0 +1,7 @@
+5 comandos aprendidos en clase 
+
+1- mkdir 
+2-cd
+3-git init 
+4-git add .
+5-git checkout
